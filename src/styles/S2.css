@@ -1,0 +1,91 @@
+.s2-all {
+    padding: 50px 75px 0 75px;
+}
+
+.s2-all .s2-head {
+    text-align: center;
+    font-size: 25px;
+    padding: 0 0 20px 0;
+}
+
+.s2-all .s2-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.s2-all .s2-cards .card {
+    width: 25%;
+    height: 500px;
+    text-align: center;
+}
+
+.s2-all .s2-cards .card h4 {
+    font-size: 20px;
+}
+
+.s2-all .s2-cards .card .animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 150px;
+    width: 728px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+
+.slide-wrapper {
+    width: calc(728px * 4);
+    animation: slide 10s ease infinite;
+}
+
+@keyframes slide {
+    20% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+}
+
+.s2-all .s2-slider h2 {
+    font-size: 35px;
+    padding: 0 0 50px 0;
+    color: rgb(217, 58, 74);
+}
+
+.s2-all .s2-button {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.s2-all .s2-button button {
+    background-color: rgb(217, 58, 74);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.s2-all .s2-button button:hover {
+    filter: brightness(150%);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}

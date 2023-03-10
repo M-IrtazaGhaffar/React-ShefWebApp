@@ -1,0 +1,67 @@
+.s3-all {
+    padding: 100px 75px 0 75px;
+}
+
+.s3-all h2 {
+    text-align: center;
+    font-size: 35px;
+    padding: 0 0 30px 0;
+}
+
+.s3-all .s3-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.s3-all .s3-cards .s3-card {
+    width: 25%;
+}
+
+.s3-all .s3-cards h3 {
+    color: rgb(217, 58, 74);
+    font-size: 30px;
+}
+
+.s3-all .head-2 {
+    font-size: 35px;
+    text-align: left;
+    padding: 100px 0 50px 0;
+    color: rgb(217, 58, 74);
+}
+
+.s3-all .s3-cards2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.s3-all .s3-cards2 .s3-card2 {
+    width: 25%;
+}
+
+.s3-all .s3-cards2 h3 {
+    color: black;
+    font-size: 23px;
+    padding: 0 0 10px 0;
+}
+
+.s3-all .s3-button {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.s3-all .s3-button button {
+    background-color: rgb(217, 58, 74);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+.s3-all .s3-button button:hover {
+    filter: brightness(150%);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}

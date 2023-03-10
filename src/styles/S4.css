@@ -1,0 +1,26 @@
+.s4-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 75px 75px 0;
+}
+
+.s4-all .s4-img {
+    width: 100%;
+}
+
+.s4-all .s4-img img {
+    width: 55vw;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.s4-all .s4-details {
+    width: 55vw;
+}
+
+.s4-all .s4-details h2 {
+    font-size: 35px;
+    padding: 0 0 20px 0;
+    color: rgb(217, 58, 74);
+}

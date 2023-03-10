@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Kalam:wght@300&family=Lobster&family=Macondo&family=Oswald&family=Poppins:ital,wght@0,100;0,400;1,900&family=Roboto&family=Satisfy&family=Ubuntu&display=swap');
+.footer-all {
+    color: whitesmoke;
+}
+
+.footer-all .footer-1st {
+    background-color: rgb(217, 58, 74);
+}
+
+.footer-all .footer-1st {
+    padding: 75px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.footer-all .footer-1st .f-1-child .f-1-logo h1 {
+    font-size: 100px;
+    font-family: 'Satisfy', cursive;
+}
+
+.footer-all .footer-1st .f-1-child .f-1-logo-desc h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+.footer-all .footer-1st .f-1-child h3 {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.footer-all .footer-1st .f-1-child a {
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding: 2px 0;
+    font-size: 14px;
+}
+
+.footer-all .footer-1st .f-1-child a:hover {
+    color: black;
+}
+
+.footer-all .footer-1st .f-1-child .f-1-link svg {
+    width: 25px;
+    padding-right: 5px;
+}
+
+.footer-all .footer-1st .f-1-child .f-1-link {
+    display: flex;
+    align-items: center;
+}
+
+.footer-all .footer-2nd {
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    padding: 20px;
+    font-size: 14px;
+}

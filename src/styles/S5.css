@@ -1,0 +1,72 @@
+.s5-all {
+    background-color: rgb(247, 247, 247);
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s5-all .s5-head h1 {
+    font-size: 40px;
+}
+
+.s5-all .s5-desc p {
+    padding: 30px 0;
+}
+
+.s5-all .s5-input form {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: max-content;
+    padding: 5px;
+}
+
+.s5-all .s5-input form input {
+    border: none;
+    font-size: 17px;
+    margin: 0 5px 0 0;
+}
+
+.s5-all .s5-input form input:focus {
+    outline: none;
+}
+
+.s5-all .s5-input form svg {
+    width: 50px;
+    padding: 0 10px;
+    color: rgba(128, 128, 128, 0.8);
+}
+
+.s5-all .s5-input form input::placeholder {
+    color: rgba(128, 128, 128, 0.8);
+}
+
+.s5-all .s5-input form button {
+    border-radius: 50px;
+    font-size: 17px;
+    border: none;
+    display: flex;
+    width: 145px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(217, 58, 74);
+    color: white;
+}
+
+.s5-all .s5-input form button svg {
+    color: white;
+    padding: 0%;
+    width: 15px;
+    height: 15px;
+}
+
+.s5-all .s5-input form button:hover {
+    filter: brightness(150%);
+    transition: 0.25s ease-in-out;
+}
