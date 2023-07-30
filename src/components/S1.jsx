@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/S1.css";
-import Axios from "axios";
+// import Axios from "axios";
 
 function S1() {
 
@@ -12,10 +12,10 @@ function S1() {
         e.preventDefault()
 
         // if data is going to Server then:
-        const url = "";
-        await Axios.post(url, {
-            code: zipCode
-        });
+        // const url = "";
+        // await Axios.post(url, {
+        //     code: zipCode
+        // });
 
         // we can also navigate to another page using react-router-dom!
     }
